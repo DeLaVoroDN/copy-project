@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth; /* Це треба для планого скролу сторінки, але не буде працювати якщо в браузері не ввімкнена ця функція  */
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  color: #fcf9f9;
+  background: #1c2225;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .section {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .section {
+    padding-bottom: 150px;
+  }
+}
